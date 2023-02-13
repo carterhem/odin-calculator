@@ -4,6 +4,13 @@ h1 {
   padding: 20px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .display {
   display: flex;
   border: 1px solid black;
@@ -12,17 +19,16 @@ h1 {
 }
 
 .numbox {
-
-}
-
-.numitem {
-
+  display: flex;
+  background-color: green;
 }
 
 .symbolbox {
-
+  display: flex;
+  background-color: blue;
 }
 
-.symbolitem {
-
+#clear {
+  background-color: red;
+  font-weight: bold
 }
