@@ -4,6 +4,13 @@ h1 {
   padding: 20px;
 }
 
+.display {
+  display: flex;
+  border: 1px solid black;
+  background-color: Black;
+  color: white;
+}
+
 .numbox {
 
 }
