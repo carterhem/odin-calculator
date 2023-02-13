@@ -23,7 +23,8 @@ const operate = function(a,b,operator) {
     return subtract(a,b);
   } else if(operator === "*") {
     return multiply(a,b);
-  } else if(operator === "/") {
+  } else if(operator === "÷") {
+    //this will need to be changed to divide symbol ÷ somewhere along the way
     return divide(a,b);
   }
 }
